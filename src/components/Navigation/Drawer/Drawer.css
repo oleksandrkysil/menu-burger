@@ -1,0 +1,47 @@
+.drawer {
+    position: relative;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 650px;
+    min-height: 100vh;
+    padding: 20;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    background: #e0e0e0;
+    z-index: 90;
+    transform: translateX(0px);
+    transition: transform 1s;
+}
+
+.drawer-close {
+    transform: translateX(-650px);
+}
+
+.drawer ul {
+    list-style: none;
+    margin: 0;
+    padding: 20px 10px;
+}
+
+.drawer ul li {
+    margin-bottom: 15px;
+}
+
+.drawer ul li a {
+    color: navy;
+    font-size: 32px;
+    text-decoration: none;
+    position: relative;
+    padding: 0 20px 10px 20px;
+    transition: 1s;
+}
+
+.drawer ul li a:hover, .active {
+    color: #ee00ee;
+}
+
+.drawer ul li a:hover {
+
+}
